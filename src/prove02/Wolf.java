@@ -122,10 +122,6 @@ public class Wolf extends Creature implements Spawner, Movable, Aware, Aggressor
                     break;
             }
         } while(nextDir != _prefDirection);
-
-
-        for (int i = 0; i < 4; i++) {
-        }
     }
 
     /**
